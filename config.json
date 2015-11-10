@@ -1,0 +1,7 @@
+{
+  "domain": "npm.evilpacket.net",
+  "dir": "./registry",
+  "limit": "10",
+  "hooks": "/Users/adam_baldwin/Documents/projects/cuddly-spork/hooks.js",
+  "log": "registry-static.log"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "cuddly-spork",
+  "version": "1.0.0",
+  "description": "Does a thing for me",
+  "main": "hooks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "registry-static -c ./config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilpacket/cuddly-spork.git"
+  },
+  "author": "Adam Baldwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evilpacket/cuddly-spork/issues"
+  },
+  "homepage": "https://github.com/evilpacket/cuddly-spork#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "registry-static": "^2.0.0"
+  }
+}
