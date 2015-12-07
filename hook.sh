@@ -28,7 +28,7 @@ if [ "$?" != "0" ]; then
   mkdir -p $DIR
 
   #Untar
-  tar oxfz $pkg -strip-components=1 -C $DIR 2>> $TMP/error.log
+  tar oxfz $pkg --strip-components=1 -C $DIR 2>> $TMP/error.log
   chmod -R 775 $DIR
 
   # remove cruft
